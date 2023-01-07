@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    font-family: 'Work Sans', sans-serif;
+}
+main{
+    width: 1140px;
+    margin: 0px auto;
+}
+.header-banner{
+    height: 723px; 
+    background-image: url(../images/banner/banner1.png);
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding-right: 250px;
+}
+.heading-text{
+    font-size: 65px;
+    font-weight: 700;
+    color: #151515;
+    margin-left: 450px;
+
+    
+
+}
+.heading-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-left: 700px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+
+}
+.banner-button{
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 26px;
+
+
+
+}
+.previous-year{
+    display:flex;
+    align-items: center;
+    gap: 87px;
+
+}
+.heading-text2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+.previous-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.previous-list{
+    margin-bottom: 8px;
+    color: #444343;
+}
+.previous-list i{
+    color: #16D887;
+}
+.my-plans h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.plan-css{
+    text-align: center;
+
+
+}
+.plan-css h3{
+    margin: 8px 0px;
+}
+.plan-css p{
+    color: #444343;
+}
+.positive{
+    background:  linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); 
+    height: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.positive h3{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+.positive button{
+    font-size: 20px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 26px;
+    margin-left: 150px;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.info1 h3{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FFFFFF;
+
+}
+.info1 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin: 16px 0px 24px;
+    padding-right: 500px;
+
+
+}
+.info1 img{
+    margin-right: 18px;
+    
+}
+label {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+input[type="email"] {
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+    background: #000;
+    margin: 30px 0 16px;
+}
+footer {
+    background: #000;
+}
